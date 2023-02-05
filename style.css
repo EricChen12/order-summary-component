@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.img-hero {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+
+.container-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.container-plan {
+    width: 100%;
+    margin: 25px 0;
+
+}
+
+.container-plan-padding {
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-plan-padding a {
+    margin-left: auto;
+    font-weight: 700;
+}
+
+.container-plan-padding a:hover {
+    color: hsl(245, 80%, 76%);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container-plan-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.container-plan-info span {
+    color: black;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.btn-payment {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    box-shadow: 0 10px 15px hsl(245, 71%, 86%);
+}
+
+.btn-payment:hover {
+    background-color: hsl(245, 80%, 76%);
+    cursor: pointer;
+}
+
+.btn-cancel {
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.btn-cancel:hover {
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media(min-width:769px) {
+    .container {
+        width: 475px;
+    }
+
+    .container-content {
+        padding: 50px;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+}
