@@ -1,4 +1,8 @@
 body {
+    background-image: url(images/pattern-background-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom 800px left 0;
     display: flex;
     flex-direction: column;
     background-color: hsl(225, 100%, 94%);
@@ -7,6 +11,7 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
 
 .container {
     display: flex;
@@ -124,6 +129,14 @@ footer {
 }
 
 @media(min-width:769px) {
+
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
     .container {
         width: 475px;
     }
